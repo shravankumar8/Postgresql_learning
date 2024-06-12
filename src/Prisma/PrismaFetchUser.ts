@@ -5,7 +5,7 @@ const prisma = new PrismaClient();
 const prompt = PromptSync();
 
 function connectDb() {
-  const email: string = prompt("Enter you email");
+  const email: string = prompt("Enter you email :");
   getUser(email);
 }
 
@@ -17,3 +17,4 @@ async function getUser(email: string) {
   });
   console.log(User);
 }
+connectDb();
