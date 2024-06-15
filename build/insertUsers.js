@@ -18,7 +18,7 @@ const prompt = (0, prompt_sync_1.default)();
 function cnectDB() {
     return __awaiter(this, void 0, void 0, function* () {
         const client = new pg_1.Client({
-            connectionString: "postgres://postgres:shravan123@localhost/employee",
+            connectionString: "postgres://postgres:shravan123@localhost/test1",
         });
         try {
             yield client.connect();

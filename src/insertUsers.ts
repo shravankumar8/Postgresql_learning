@@ -5,7 +5,7 @@ const prompt = PromptSync();
 
 async function cnectDB() {
   const client = new Client({
-    connectionString: "postgres://postgres:shravan123@localhost/employee",
+    connectionString: "postgres://postgres:shravan123@localhost/test1",
   });
 
   try {
@@ -25,7 +25,7 @@ async function cnectDB() {
     console.log(error);
   } finally {
     await client.end(); // Close the connection
-    process.exit()
+    process.exit();
   }
 }
 cnectDB();

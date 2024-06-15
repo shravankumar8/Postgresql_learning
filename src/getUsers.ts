@@ -5,7 +5,7 @@ const prompt = PromptSync();
 
 async function cnectDB() {
   const client = new Client({
-    connectionString: "postgres://postgres:shravan123@localhost/employee",
+    connectionString: "postgres://postgres:shravan123@localhost/test1",
   });
 
   try {
