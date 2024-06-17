@@ -10,7 +10,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = "postgres://postgres:shravan123@localhost/employee"
+  url      = "postgres://postgres:shravan123@localhost/test1"
 }
 // model User {
 //   id         Int      @id @default(autoincrement())
